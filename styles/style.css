@@ -62,7 +62,7 @@ h3 {
 .hero {
     height: 100vh;
     position: relative;
-    background: url("https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=2000&q=80") center/cover fixed;
+    background: url(../img/photo-1521791136064-7986c2920216.avif) center/cover fixed;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -129,7 +129,7 @@ section {
 }
 
 .story {
-    background: url("https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=2000&q=80") center/cover fixed;
+    background: url(../img/photo-1507679799987-c73779587ccf.jpg) center/cover fixed;
     position: relative;
 }
 
