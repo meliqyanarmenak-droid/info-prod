@@ -1,4 +1,3 @@
-// Reveal animation
 const reveals = document.querySelectorAll('.reveal');
 
 window.addEventListener('scroll', () => {
@@ -10,7 +9,6 @@ window.addEventListener('scroll', () => {
   });
 });
 
-// Modal
 const modal = document.getElementById('modal');
 const payBtns = document.querySelectorAll('.pay-btn');
 
@@ -24,7 +22,6 @@ function closeModal(){
   modal.classList.remove('active');
 }
 
-// Countdown таймер (3 дня)
 const countdownElement = document.getElementById('countdown');
 const endDate = new Date();
 endDate.setDate(endDate.getDate() + 3);
